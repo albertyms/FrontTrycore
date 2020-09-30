@@ -1,0 +1,18 @@
+<table class="table table-bordered table-striped">
+    <tbody>
+      <tr>
+        <th class="text-nowrap" scope="row">ID</th>
+        <td>{{planetService.planetSel.id}}</td>
+      </tr>
+      <tr>
+        <th class="text-nowrap" scope="row">Name</th>
+        <td>{{planetService.planetSel.name}}</td>
+      </tr>
+      <tr>
+        <th class="text-nowrap" scope="row">Count View</th>
+        <td colspan="5">{{planetService.planetSel.countView}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <i (click)="back()" class="fas fa-arrow-alt-circle-left fa-2x"></i>
+

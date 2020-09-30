@@ -1,0 +1,41 @@
+<table class="table table-bordered table-striped">
+    <tbody>
+      <tr>
+        <th class="text-nowrap" scope="row">ID</th>
+        <td>{{personService.personSel.id}}</td>
+      </tr>
+      <tr>
+        <th class="text-nowrap" scope="row">Age</th>
+        <td>{{personService.personSel.age}}</td>
+      </tr>
+      <tr>
+        <th class="text-nowrap" scope="row">Full Name</th>
+        <td colspan="5">{{personService.personSel.fullName}}</td>
+      </tr>
+      <tr>
+        <th class="text-nowrap" scope="row">ID Number</th>
+        <td colspan="5">{{personService.personSel.idNumber}}</td>
+      </tr>
+      <tr>
+        <th class="text-nowrap" scope="row">Height</th>
+        <td colspan="5">{{personService.personSel.height}}</td>
+      </tr>
+      <tr>
+        <th class="text-nowrap" scope="row">Weight</th>
+        <td colspan="5">{{personService.personSel.weight}}</td>
+      </tr>
+      <tr>
+        <th class="text-nowrap" scope="row">Gender</th>
+        <td colspan="5">{{personService.personSel.gender}}</td>
+      </tr>
+      <tr>
+        <th class="text-nowrap" scope="row">BirthDate</th>
+        <td colspan="5">{{personService.personSel.birthDate}}</td>
+      </tr>
+      <tr>
+        <th class="text-nowrap" scope="row">Count View</th>
+        <td colspan="5">{{personService.personSel.countView}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <i (click)="back()" class="fas fa-arrow-alt-circle-left fa-2x"></i>

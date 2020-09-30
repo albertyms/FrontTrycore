@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "FrontTrycore"
+    }
+  },
+  "defaultProject": "FrontTrycore",
+  "cli": {
+    "analytics": false
+  }
 }

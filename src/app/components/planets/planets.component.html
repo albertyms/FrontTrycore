@@ -1,0 +1,15 @@
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let planet of planets; let i = index">
+        <td>{{planet.id}}</td>
+        <td>{{planet.name}}</td>
+        <td><i (click)="viewPerson(planet)" class="far fa-eye"></i></td>
+      </tr>
+    </tbody>
+  </table>

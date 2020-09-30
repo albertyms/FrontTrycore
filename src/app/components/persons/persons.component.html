@@ -1,0 +1,22 @@
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">FullName</th>
+        <th scope="col">IdNumber</th>
+        <th scope="col">Age</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let person of persons; let i = index">
+        <td>{{person.id}}</td>
+        <td>{{person.fullName}}</td>
+        <td>{{person.idNumber}}</td>
+        <td>{{person.age}}</td>
+        <td><i (click)="viewPerson(person)" class="far fa-eye"></i></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <i (click)="goCreatePerson()" class="fas fa-plus fa-2x"></i>
